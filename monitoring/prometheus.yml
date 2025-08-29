@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "resume_api"
+    static_configs:
+      - targets: ["app:8000"]   # app service in docker-compose

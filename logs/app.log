@@ -1,0 +1,26 @@
+2025-08-30 01:46:37,190 - INFO - Root endpoint hit
+2025-08-30 01:46:37,259 - INFO - Request: / - Status: 200
+2025-08-30 01:46:37,376 - INFO - Request: /favicon.ico - Status: 404
+2025-08-30 01:46:44,349 - INFO - Root endpoint hit
+2025-08-30 01:46:44,353 - INFO - Request: / - Status: 200
+2025-08-30 01:46:49,040 - INFO - Root endpoint hit
+2025-08-30 01:46:49,049 - INFO - Request: / - Status: 200
+2025-08-30 01:46:49,917 - INFO - Root endpoint hit
+2025-08-30 01:46:49,969 - INFO - Request: / - Status: 200
+2025-08-30 01:48:45,541 - INFO - Request: /docs - Status: 200
+2025-08-30 01:48:45,877 - INFO - Request: /openapi.json - Status: 200
+2025-08-30 02:45:08,219 - INFO - Request: /metrics - Status: 307
+2025-08-30 02:45:08,240 - INFO - Request: /metrics/ - Status: 200
+2025-08-30 02:45:40,273 - INFO - Request: /docs - Status: 200
+2025-08-30 02:45:40,586 - INFO - Request: /openapi.json - Status: 200
+2025-08-30 02:46:27,881 - INFO - Request: /predict/ - Status: 200
+2025-08-30 02:48:34,940 - INFO - Request: /predict - Status: 307
+2025-08-30 02:48:34,961 - INFO - Request: /predict/ - Status: 200
+2025-08-30 02:48:45,505 - INFO - Request: /predict - Status: 307
+2025-08-30 02:48:45,531 - INFO - Request: /predict/ - Status: 200
+2025-08-30 02:48:56,574 - INFO - Request: /predict - Status: 307
+2025-08-30 02:48:56,584 - INFO - Request: /predict/ - Status: 200
+2025-08-30 02:49:18,921 - INFO - Request: /predict - Status: 307
+2025-08-30 02:49:18,946 - INFO - Request: /predict/ - Status: 200
+2025-08-30 02:50:12,509 - INFO - Request: /predict - Status: 307
+2025-08-30 02:50:12,531 - INFO - Request: /predict/ - Status: 200
