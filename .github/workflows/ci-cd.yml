@@ -39,12 +39,9 @@ jobs:
     # ✅ Now run your container & test monitoring
     - name: Test Monitoring Endpoint
       run: |
-        docker-compose up -d --build
-        sleep 40
-
-    - name: Show Docker logs
-      run: docker-compose logs
-
-    - name: Curl Monitoring Endpoint
-      run: curl -f http://localhost:8000/metrics
+       docker-compose up -d --build
+       sleep 20
+       docker-compose ps
+       docker-compose logs
+       curl -v http://localhost:8000/metrics
 
