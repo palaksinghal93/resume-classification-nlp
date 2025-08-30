@@ -39,9 +39,11 @@ jobs:
     # ✅ Now run your container & test monitoring
     - name: Test Monitoring Endpoint
       run: |
-       docker-compose up -d --build
-       sleep 20
-       docker-compose ps
-       docker-compose logs
-       curl -v http://localhost:8000/metrics
+        docker-compose up -d --build
+        sleep 20
+        docker-compose ps
+        docker-compose logs
 
+    - name: Check API Health
+      run: |
+        curl -f -H "User-Agent: Mozilla/5.0" http://127.0.0.1:8000/metrics
