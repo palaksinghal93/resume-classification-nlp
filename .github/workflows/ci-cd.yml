@@ -26,9 +26,19 @@ jobs:
     - name: Run tests
       run: |
         pytest tests/
+
+    # ✅ Install Docker + Docker Compose
+    - name: Set up Docker
+      uses: docker/setup-buildx-action@v2
+
+    - name: Install Docker Compose
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y docker-compose
+
+    # ✅ Now run your container & test monitoring
     - name: Test Monitoring Endpoint
       run: |
         docker-compose up -d
         sleep 10
         curl -f http://localhost:8000/metrics
-
