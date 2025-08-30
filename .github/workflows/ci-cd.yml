@@ -41,6 +41,10 @@ jobs:
       run: |
         docker-compose up -d
         sleep 20
+
     - name: Show Docker logs
       run: docker-compose logs
-        curl -f http://localhost:8000/metrics
+
+    - name: Curl Monitoring Endpoint
+      run: curl -f http://localhost:8000/metrics
+
